@@ -15,8 +15,9 @@ const Installation = ({ className }) => (
       </p>
       <div className="inline-block leading-normal font-mono text-sm bg-white rounded w-full md:max-w-md">
         <pre className="m-6 overflow-x-auto">
-          $ /bin/sh "$(curl -fSsL
+          $ echo "$(curl -fSsL
           https://raw.githubusercontent.com/ngscheurich/loverboy/master/install)"
+          | /bin/sh
         </pre>
       </div>
     </section>

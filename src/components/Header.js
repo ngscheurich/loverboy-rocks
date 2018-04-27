@@ -19,8 +19,9 @@ export default () => (
 
     <div className="flex justify-center">
       <code className="font-mono text-xs md:text-sm leading-normal font-bold bg-pink-dark text-white p-6 rounded">
-        /bin/sh "$(curl -fSsL
+        echo "$(curl -fSsL
         https://raw.githubusercontent.com/ngscheurich/loverboy/master/install)"
+        | /bin/sh
       </code>
     </div>
   </header>
