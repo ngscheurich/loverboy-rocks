@@ -9,7 +9,7 @@ const Installation = ({ className }) => (
       <p className="leading-normal mb-4">
         Executing the following command in a terminal will install Löverboy on
         your system, assuming it meets the{" "}
-        <a href="#" className="text-pink-dark hover:text-pink no-underline">
+        <a href="#" className="text-pink hover:underline no-underline">
           prerequisites
         </a>.
       </p>

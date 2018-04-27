@@ -9,7 +9,7 @@ const Links = ({ className }) => (
       href="https://github.com/ngscheurich/loverboy"
     >
       <Icons.Github className="mr-3" />
-      <span className="text-pink-dark hover:text-pink">
+      <span className="text-pink hover:text-pink hover:underline">
         https://github.com/ngscheurich/loverboy
       </span>
     </a>
@@ -19,7 +19,7 @@ const Links = ({ className }) => (
       href="https://twitter.com/ngscheurich"
     >
       <Icons.Twitter className="mr-3" />
-      <span className="text-pink-dark hover:text-pink">
+      <span className="text-pink hover:underline">
         https://twitter.com/ngscheurich
       </span>
     </a>
@@ -29,7 +29,7 @@ const Links = ({ className }) => (
       href="https://love2d.org/"
     >
       <Icons.Heart className="mr-3" />
-      <span className="text-pink-dark hover:text-pink">https://love2d.org</span>
+      <span className="text-pink hover:underline">https://love2d.org</span>
     </a>
   </div>
 );
