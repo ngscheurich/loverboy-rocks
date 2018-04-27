@@ -6,9 +6,7 @@ This is the source code for the [Löverboy](https://github.com/ngscheurich/lover
 
 * [Loverboy](#-loverboy)
   * [Table of Contents](#table-of-contents)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Roadmap](#roadmap)
+  * [Development](#develop)
   * [Contributing](#contributing)
   * [License](#license)
 
