@@ -1,5 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Rock+Salt|Quicksand:400,700");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One|Quicksand:400,700|IBM+Plex+Mono:400,700");
 
 @tailwind preflight;
 @tailwind components;
+
+.gh-count {
+  display: none !important;
+}
+
 @tailwind utilities;
