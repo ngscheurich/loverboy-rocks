@@ -9,5 +9,13 @@ module.exports = {
     `,
     url: "https://loverboy.no-wave.games/"
   },
-  plugins: ["gatsby-plugin-react-helmet"]
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-31062667-7"
+      }
+    }
+  ]
 };
