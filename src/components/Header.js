@@ -10,9 +10,17 @@ export default () => (
         </h1>
         <p className="leading-normal text-lg md:text-2xl text-blue-lighter">
           Löverboy makes it easy to add Lua libraries to your{" "}
-          <strong>LÖVE</strong> project with a simple set of commands. Library
-          files are added directly to your project directory so distributing
-          your game is a <strong>snap</strong>.
+          <strong>
+            <a
+              className="text-white no-underline hover:underline"
+              href="https://love2d.org/"
+            >
+              LÖVE
+            </a>
+          </strong>{" "}
+          project with a simple set of commands. Library files are added
+          directly to your project directory so distributing your game is a{" "}
+          <strong>snap</strong>.
         </p>
       </div>
     </div>
