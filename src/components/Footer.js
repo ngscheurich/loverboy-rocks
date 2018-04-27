@@ -30,7 +30,7 @@ export default () => (
         type="forks"
         size="large"
         namespace="ngscheurich"
-        repo="loverboy-website"
+        repo="loverboy-rocks"
       />
     </div>
   </footer>
