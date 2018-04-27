@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Tour = ({ className }) => (
   <div className={className}>
-    <div className="leading-normal font-mono text-sm bg-blue-dark text-blue-lighter rounded p-6 leading-normal">
+    <div className="leading-normal antialiased font-mono text-sm bg-blue-dark text-blue-lighter rounded p-6 leading-normal">
       <div>
         <span className="text-pink">$</span> loverboy search physics
       </div>

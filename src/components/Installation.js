@@ -13,8 +13,8 @@ const Installation = ({ className }) => (
           prerequisites
         </a>.
       </p>
-      <div className="inline-block leading-normal font-mono text-sm bg-white rounded w-full md:max-w-md">
-        <pre className="m-6 overflow-x-auto">
+      <div className="inline-block bg-white rounded w-full md:max-w-md">
+        <pre className="m-6 overflow-x-auto leading-normal font-mono text-sm">
           $ echo "$(curl -fSsL
           https://raw.githubusercontent.com/ngscheurich/loverboy/master/install)"
           | /bin/sh
@@ -27,8 +27,8 @@ const Installation = ({ className }) => (
       <p className="leading-normal mb-4">
         You can also run the installation commands yourself, individually.
       </p>
-      <div className="inline-block leading-normal font-mono text-sm bg-white rounded w-full md:max-w-md">
-        <pre className="m-6 overflow-x-auto">
+      <div className="inline-block bg-white rounded w-full md:max-w-md">
+        <pre className="m-6 overflow-x-auto leading-normal font-mono text-sm">
           $ luarocks install loverboy<br />
           $ git clone https://github.com/ngscheurich/loverboy-mfiles.git
           ~/.local/share/loverboy

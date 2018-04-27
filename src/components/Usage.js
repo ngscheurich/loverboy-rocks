@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 const Usage = ({ className }) => (
   <section className={className}>
     <h2 className="leading-tight mb-4">Usage</h2>
-    <div className="inline-block leading-normal font-mono text-sm bg-white rounded w-full md:max-w-md">
-      <pre className="m-6 overflow-x-auto">
+    <div className="inline-block bg-white rounded w-full md:max-w-md">
+      <pre className="m-6 overflow-x-auto leading-normal font-mono text-sm">
         {`
 Usage: loverboy [OPTIONS]
 

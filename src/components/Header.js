@@ -18,8 +18,8 @@ export default () => (
     </div>
 
     <div className="flex justify-center">
-      <div className="leading-normal sm bg-pink-dark text-white rounded w-full md:w-auto">
-        <pre className="m-6 overflow-x-auto font-mono font-bold text-sm">
+      <div className="bg-pink-dark text-white rounded w-full md:w-auto">
+        <pre className="m-6 overflow-x-auto leading-normal font-mono font-bold text-sm">
           echo "$(curl -fSsL
           https://raw.githubusercontent.com/ngscheurich/loverboy/master/install)"
           | /bin/sh
