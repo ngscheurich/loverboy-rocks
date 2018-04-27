@@ -3,7 +3,7 @@ import GitHubButton from "react-github-button";
 
 export default () => (
   <footer className="text-base text-white leading-normal antialiased container py-8 md:flex justify-between">
-    <div className="mb-4 md:mb-0">
+    <div className="mb-8 md:mb-0">
       <p className="mb-2">
         Copyright © 2018{" "}
         <a
@@ -25,7 +25,7 @@ export default () => (
       </p>
     </div>
 
-    <div>
+    <div className="inline-block">
       <GitHubButton
         type="forks"
         size="large"
