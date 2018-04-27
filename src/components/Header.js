@@ -18,11 +18,13 @@ export default () => (
     </div>
 
     <div className="flex justify-center">
-      <code className="font-mono text-xs md:text-sm leading-normal font-bold bg-pink-dark text-white p-6 rounded">
-        echo "$(curl -fSsL
-        https://raw.githubusercontent.com/ngscheurich/loverboy/master/install)"
-        | /bin/sh
-      </code>
+      <div className="leading-normal sm bg-pink-dark text-white rounded w-full md:w-auto">
+        <pre className="m-6 overflow-x-auto font-mono font-bold text-sm">
+          echo "$(curl -fSsL
+          https://raw.githubusercontent.com/ngscheurich/loverboy/master/install)"
+          | /bin/sh
+        </pre>
+      </div>
     </div>
   </header>
 );
