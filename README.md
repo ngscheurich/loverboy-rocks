@@ -1,26 +1,35 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# 💘 Löverboy Website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+This is the source code for the [Löverboy](https://github.com/ngscheurich/loverboy) website.
 
-## Install
+## Table of contents
 
-Make sure that you have the Gatsby CLI program installed:
+* [Loverboy](#-loverboy)
+  * [Table of Contents](#table-of-contents)
+  * [Development](#develop)
+  * [Contributing](#contributing)
+  * [License](#license)
+
+## Development
+
+This project is built on [Gatsby](https://www.gatsbyjs.org/), my favorite static site generator.
+To hack on the source, you’ll need the Gatsby CLI program installed:
+
 ```sh
-npm install --global gatsby-cli
+$ npm install --global gatsby-cli
 ```
 
-And run from your CLI:
+You can then `cd` into the project directory and spin up a live-reloading dev server:
+
 ```sh
-gatsby new gatsby-example-site
+$ gatsby develop
 ```
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
-```
+## Contributing
 
-## Deploy
+PRs are welcome—just be sure and adhere to the
+[code of conduct](https://github.com/ngscheurich/loverboy-rocks/blob/master/CODE_OF_CONDUCT.md).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+## License
+
+This project is released under the [MIT license](https://github.com/ngscheurich/loverboy-rocks/blob/master/LICENSE).
