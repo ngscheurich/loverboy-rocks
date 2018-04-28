@@ -3,9 +3,11 @@ import React from "react";
 export default () => (
   <header className="text-white antialiased container py-xl md:py-2xl">
     <div className="md:flex items-center mb-8 md:mb-xl">
-      <div className="md:w-1/3 text-center text-xxl md:text-xxxl">💘</div>
-      <div className="md:w-2/3 max-w-md">
-        <h1 className="font-display text-3xl md:text-5xl text-center md:text-left leading-tight mb-2">
+      <div className="md:w-1/3 text-center text-xxl md:text-xxxl mb-8 md:mb-0">
+        💘
+      </div>
+      <div className="md:w-2/3 max-w-md text-center md:text-left">
+        <h1 className="font-display text-3xl md:text-5xl leading-tight mb-2">
           Löverboy
         </h1>
         <p className="leading-normal text-lg md:text-2xl text-blue-lighter">
